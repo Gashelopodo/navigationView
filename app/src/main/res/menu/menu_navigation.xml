@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/menu_section_1"
+        android:title="DEPORTES"
+        android:icon="@mipmap/ic_launcher">
+    </item>
+
+    <item android:id="@+id/menu_section_2"
+        android:title="MÚSICA"
+        android:icon="@mipmap/ic_launcher">
+    </item>
+
+    <item android:id="@+id/menu_section_3"
+        android:title="CINE"
+        android:icon="@mipmap/ic_launcher">
+    </item>
+    </group>
+
+    <item android:id="@+id/navigation_subheader"
+        android:title="EXTRA">
+        <menu>
+
+            <item android:id="@+id/menu_section_4"
+                android:title="VIAJES"
+                android:icon="@mipmap/ic_launcher">
+            </item>
+
+            <item android:id="@+id/menu_section_5"
+                android:title="CULTURA"
+                android:icon="@mipmap/ic_launcher">
+            </item>
+
+        </menu>
+    </item>
+
+
+</menu>
